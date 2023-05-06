@@ -53,7 +53,7 @@ public class StoreTests {
 		Assert.assertEquals(response.statusLine(), "HTTP/1.1 200 OK");
 	}
 	
-	@Test (enabled=false,priority=3)
+	@Test (enabled=true,priority=3)
 	public void testUpdateOrderByOrderId() {
 		storepayload.setQuantity(15);
 		storepayload.setStatus("approved");
